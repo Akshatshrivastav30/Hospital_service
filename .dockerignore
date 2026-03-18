@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local database (never bake into image)
+*.db
+*.sqlite
+instance/
+
+# Tests
+tests/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# Docs
+README.md
+*.md
+
+# CI configs
+.github/
+Jenkinsfile
